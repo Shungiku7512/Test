@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/湖城海斗/Documents/Test/Oikake/Oikake/Content/black.BMP</File>
+    <File>C:/Users/湖城海斗/Documents/Test/Oikake/Oikake/Content/ending.BMP</File>
+    <File>C:/Users/湖城海斗/Documents/Test/Oikake/Oikake/Content/number.bmp</File>
+    <File>C:/Users/湖城海斗/Documents/Test/Oikake/Oikake/Content/score.bmp</File>
+    <File>C:/Users/湖城海斗/Documents/Test/Oikake/Oikake/Content/stage.BMP</File>
+    <File>C:/Users/湖城海斗/Documents/Test/Oikake/Oikake/Content/timer.bmp</File>
+    <File>C:/Users/湖城海斗/Documents/Test/Oikake/Oikake/Content/title.BMP</File>
+    <File>C:/Users/湖城海斗/Documents/Test/Oikake/Oikake/Content/white.BMP</File>
+    <File>C:/Users/湖城海斗/Documents/Test/Oikake/Oikake/Content/pipo-btleffect.png</File>
+    <File>C:/Users/湖城海斗/Documents/Test/Oikake/Oikake/Content/Sound/endingse.wav</File>
+    <File>C:/Users/湖城海斗/Documents/Test/Oikake/Oikake/Content/Sound/gameplaybgm.mp3</File>
+    <File>C:/Users/湖城海斗/Documents/Test/Oikake/Oikake/Content/Sound/gameplayse.wav</File>
+    <File>C:/Users/湖城海斗/Documents/Test/Oikake/Oikake/Content/Sound/titlebgm.mp3</File>
+    <File>C:/Users/湖城海斗/Documents/Test/Oikake/Oikake/Content/Sound/titlese.wav</File>
+    <File>C:/Users/湖城海斗/Documents/Test/Oikake/Oikake/Content/Sound/endingbgm.mp3</File>
+    <File>C:/Users/湖城海斗/Documents/Test/Oikake/Oikake/Content/oikake_enemy_4anime.bmp</File>
+    <File>C:/Users/湖城海斗/Documents/Test/Oikake/Oikake/Content/oikake_player_4anime.bmp</File>
+    <File>C:/Users/湖城海斗/Documents/Test/Oikake/Oikake/Content/puddle.png</File>
+    <File>C:/Users/湖城海斗/Documents/Test/Oikake/Oikake/Content/nc47171.gif</File>
+    <File>C:/Users/湖城海斗/Documents/Test/Oikake/Oikake/Content/Sound/congratulation.mp3</File>
+    <File>C:/Users/湖城海斗/Documents/Test/Oikake/Oikake/Content/particleBlue.png</File>
+    <File>C:/Users/湖城海斗/Documents/Test/Oikake/Oikake/Content/particle.png</File>
+  </SourceFiles>
+</SourceFileCollection>

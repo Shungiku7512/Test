@@ -71,7 +71,7 @@ namespace Oikake.Scene
                 renderer.DrawTexture("ending", new Vector2(150, 150));
             }
             */
-
+            
             //描画終了
             renderer.End();
         }

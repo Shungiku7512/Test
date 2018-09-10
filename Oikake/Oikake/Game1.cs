@@ -12,7 +12,8 @@ using Oikake.Util;
 using System.Collections.Generic;
 
 /// <summary>
-/// プロジェクト名がnamespaceとなります
+/// 編集 湖城海斗
+/// 編集日時9月10日
 /// </summary>
 namespace Oikake
 {
@@ -29,6 +30,7 @@ namespace Oikake
 
         private SceneManager sceneManager;
 
+        
         /// <summary>
         /// コンストラクタ
         /// （new で実体生成された際、一番最初に一回呼び出される）
@@ -63,7 +65,7 @@ namespace Oikake
             sceneManager.Add(Scene.Scene.Ending, new Ending(addScene));
             sceneManager.Add(Scene.Scene.GoodEnding, new GoodEnding(addScene));
             sceneManager.Change(Scene.Scene.Title);
-
+            
             // この上にロジックを記述
             base.Initialize();// 親クラスの初期化処理呼び出し。絶対に消すな！！
         }
@@ -76,7 +78,7 @@ namespace Oikake
         {
             //renderer = new Renderer(Content, GraphicsDevice);
             renderer = gameDevice.GetRenderer();
-
+            
             // この下にロジックを記述
             renderer.LoadContent("black");
             renderer.LoadContent("ending");
@@ -128,6 +130,7 @@ namespace Oikake
         /// <summary>
         /// 更新処理
         /// （1/60秒の１フレーム分の更新内容を記述。音再生はここで行う）
+        /// 
         /// </summary>
         /// <param name="gameTime">現在のゲーム時間を提供するオブジェクト</param>
         protected override void Update(GameTime gameTime)
@@ -139,11 +142,12 @@ namespace Oikake
                 Exit();
             }
 
+            
             // この下に更新ロジックを記述
             gameDevice.Update(gameTime);
             sceneManager.Update(gameTime);
 
-            //Input.Update();
+            Input.Update();//コメント解除
 
             //sceneManager.Update(gameTime);
             
@@ -163,6 +167,7 @@ namespace Oikake
             // この下に描画ロジックを記述
             sceneManager.Draw(renderer);
 
+            
             //この上にロジックを記述
             base.Draw(gameTime); // 親クラスの更新処理呼び出し。絶対に消すな！！
         }
